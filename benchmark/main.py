@@ -23,6 +23,7 @@ def run_jailbreak(config, input_image, aux_img_path, text_prompt, folder, alpha)
 
     aux_img_pil = Image.open(aux_img_path)
     mixup_image = get_mixup(input_image, aux_img_pil, alpha.get("alpha"))
+    mixup_image.show(title=f"Mixed Image")
 
     # llava 1.6
     vlm_response = run_llava(

@@ -25,13 +25,15 @@ The paper explored how out-of-distribution (OOD) strategies can jailbreak the sa
 > ***Input Text***: Safe 
 
 <div align="center">
-  <img src="assets/imgs/mixup_sample0.png" width="150" alt="Prompt and Result Example" />
-  <img src="assets/imgs/mixup_sample2.png" width="150" alt="Prompt and Result Example" />
-  <br>
-    <img src="assets/imgs/result2.png" width="800" alt="Prompt and Result Example" />
-      <br>
 
-  <em>Figure: Example of mixed up images and response from LLaVA, judged by Llama Guard3.</em>
+  <img src="assets/imgs/mixup_sample2.png" width="150" alt="Prompt and Result Example" />
+  <img src="assets/imgs/mixup_sample3.png" width="150" alt="Prompt and Result Example" />
+  <img src="assets/imgs/mixup_sample1.png" width="150" alt="Prompt and Result Example" />
+  <br>
+  <img src="assets/imgs/result3.png" width="800" alt="Prompt and Result Example" />
+  <br>
+
+  <em>Figure: Example of mixed up images and response with second one from LLaVA, judged by Llama Guard3 .</em>
 </div>
 
 
