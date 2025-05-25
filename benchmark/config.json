@@ -1,0 +1,16 @@
+{
+    // Please fill in 'API Address'
+    "api_url": " 'API Address' /api/generate", 
+    "judge_api_url": " 'API Address' /api/chat",
+    
+    // Please set your model
+    "vlm_model": "llava:34b",
+    "judge_model": "llama-guard3:latest",
+
+    "test_image_folder": "../data/images",
+    "input_image_path" : "../data/images/kidgun.jpg", // bomb.jpg
+
+    // To check other benchmark dataset
+    "advbench-m": "../data/advbench-m",
+    "MMBench_category_name": "01-Illegal_Activitiy"
+}
